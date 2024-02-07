@@ -142,7 +142,7 @@ h1 {
 }
 
 .start:hover {
-    box-shadow: 15px 12px 0px 0px #ae3f20;
+    box-shadow: 15px 12px 0px 0px #d25f3f;
 }
 
 @media screen and ( max-width: 960px) {
@@ -175,7 +175,7 @@ h1 {
 #scrollbar1::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-clip: content-box;
-    background-color: #ae3f20;
+    background-color: #b44f34;
 }
 
 .topic {
@@ -191,11 +191,6 @@ h1 {
     transition: all ease 0.3s;
 }
 
-/* .topic:hover {
-    background-color: #ae3f20;
-
-} */
-
 .main-page-1 {
     background-color: #F3FFDB;
     background-repeat: no-repeat;
@@ -209,12 +204,14 @@ h1 {
     font-size: 1.8rem;
     word-wrap: break-word;
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .sheme {
-    width: 30%;
-    padding-left: 15px;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-left: 25px;
     padding-top: 15px;
 }
 
@@ -260,12 +257,13 @@ h1 {
 }
 
 .color-change:hover {
-    background-color: #ae3f20;
+    background-color: #b44f34;
 }
 
 .small-topic-2 {
     font-size: 3rem;
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
 }
 
 .teory {
@@ -287,4 +285,8 @@ h1 {
 #scrollbar2::-webkit-scrollbar-thumb {
     background-clip: content-box;
     background-color: #F6871F;
+}
+
+.pad-bot {
+    padding-bottom: 30px;
 }
